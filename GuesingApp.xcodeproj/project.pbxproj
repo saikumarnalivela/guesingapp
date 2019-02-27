@@ -15,6 +15,9 @@
 		6516374F2226321500BDCCDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6516374D2226321500BDCCDF /* LaunchScreen.storyboard */; };
 		6516375A2226321500BDCCDF /* GuesingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651637592226321500BDCCDF /* GuesingAppTests.swift */; };
 		651637652226321500BDCCDF /* GuesingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651637642226321500BDCCDF /* GuesingAppUITests.swift */; };
+		65163773222632B600BDCCDF /* BrandNewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65163772222632B600BDCCDF /* BrandNewControllerViewController.swift */; };
+		6516377522264A2E00BDCCDF /* identity.png in Resources */ = {isa = PBXBuildFile; fileRef = 6516377422264A2E00BDCCDF /* identity.png */; };
+		6516377722264E7F00BDCCDF /* Guesser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6516377622264E7F00BDCCDF /* Guesser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		651637602226321500BDCCDF /* GuesingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuesingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		651637642226321500BDCCDF /* GuesingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuesingAppUITests.swift; sourceTree = "<group>"; };
 		651637662226321500BDCCDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65163772222632B600BDCCDF /* BrandNewControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandNewControllerViewController.swift; sourceTree = "<group>"; };
+		6516377422264A2E00BDCCDF /* identity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = identity.png; sourceTree = "<group>"; };
+		6516377622264E7F00BDCCDF /* Guesser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guesser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +109,10 @@
 				651637442226321400BDCCDF /* FirstViewController.swift */,
 				651637462226321400BDCCDF /* SecondViewController.swift */,
 				651637482226321400BDCCDF /* Main.storyboard */,
+				6516377622264E7F00BDCCDF /* Guesser.swift */,
+				65163772222632B600BDCCDF /* BrandNewControllerViewController.swift */,
 				6516374B2226321500BDCCDF /* Assets.xcassets */,
+				6516377422264A2E00BDCCDF /* identity.png */,
 				6516374D2226321500BDCCDF /* LaunchScreen.storyboard */,
 				651637502226321500BDCCDF /* Info.plist */,
 			);
@@ -232,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6516377522264A2E00BDCCDF /* identity.png in Resources */,
 				6516374F2226321500BDCCDF /* LaunchScreen.storyboard in Resources */,
 				6516374C2226321500BDCCDF /* Assets.xcassets in Resources */,
 				6516374A2226321400BDCCDF /* Main.storyboard in Resources */,
@@ -260,6 +270,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				651637472226321400BDCCDF /* SecondViewController.swift in Sources */,
+				65163773222632B600BDCCDF /* BrandNewControllerViewController.swift in Sources */,
+				6516377722264E7F00BDCCDF /* Guesser.swift in Sources */,
 				651637432226321400BDCCDF /* AppDelegate.swift in Sources */,
 				651637452226321400BDCCDF /* FirstViewController.swift in Sources */,
 			);
